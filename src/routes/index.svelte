@@ -14,6 +14,11 @@
 	};
 </script>
 
+<svelte:head>
+	<meta property="og:title" content="Wedding Guest List" />
+	<meta property="og:description" content="There are {guestCount} guests" />
+</svelte:head>
+
 <div class="p-4">
 	<h1 class="text-3xl">Wedding Guest List</h1>
 	<div class="flex justify-left gap-2 items-center pt-4">
